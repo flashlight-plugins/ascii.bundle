@@ -1,0 +1,9 @@
+{
+    "name": "ascii",
+    "displayName": "Search for an ASCII code",
+    "description": "Speaks your input text",
+    "examples": ["ascii space", "ascii 0x20", "ascii 32"],
+    "categories": ["Utilities", "Featured", "Developer"],
+    "creator_name": "Cosmo Zhang",
+    "creator_url": ""
+}

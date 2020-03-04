@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <style>
+            body{
+                padding: 10px 12px;
+                font: 15px/1.4 'Helvetica Neue';
+                font-weight: 300;
+                /*-webkit-user-select: none;*/
+            }
+            table,
+            table tr,
+            table td,
+            table th {
+                border: none;
+            }
+            table {
+                width: 90%;
+                margin: 5px 5%;
+            }
+            table tr td {
+                /* border-top: 1px #cccccc solid; */
+            }
+            table tr:first-child td {
+                border-top: none;
+            }
+            table td,
+            table th {
+                padding: 3px;
+                font-size: 14px;
+                text-align: center;
+            }
+            .dark {
+                color: rgb(224,224,224);
+            }
+        </style>
+    </head>
+    <body class="{apearance}">
+        <table>
+            <tr>
+                <th>Hex</th>
+                <th>Oct</th>
+                <th>Description</th>
+            </tr>
+            {%template:begin%}
+            <tr>
+                <td>{hex}</td>
+                <td>{oct}</td>
+                <td>{desc}</td>
+            </tr>
+            {%template:end%}
+        </table>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+ascii of ~desc(space)
+ascii ~code(0x20)
